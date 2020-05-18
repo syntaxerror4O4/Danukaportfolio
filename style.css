@@ -176,7 +176,7 @@ footer#about {
 
 /* Desktop Notebook, Macbook 15 Inch, Media Queries */
 
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
   
 video#video_resize {
     max-width: 384px;
@@ -184,7 +184,7 @@ video#video_resize {
 }
 
 .project_view {
-    display: flex;
+    
     max-width: 384px;
     max-height: 204px;
 }
