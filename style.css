@@ -207,8 +207,8 @@ footer#about {
 @media (min-width: 1024px) and (max-width: 1500px) {
   
 video#video_resize {
-    max-width: 384px;
-    max-height: 204px;
+    max-width: 396px;
+    max-height: 240px;
 }
 
 .project_view {
@@ -230,7 +230,7 @@ a {
     cursor: pointer;
     font-family: 'Work Sans';
     font-size: 22px;
-    font-style: thin italic;
+    font-style: italic;
     font-weight: 400;
     text-transform: lowercase;
 }
