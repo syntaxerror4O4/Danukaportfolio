@@ -207,8 +207,8 @@ footer#about {
 @media (min-width: 1024px) and (max-width: 1500px) {
   
 video#video_resize {
-    max-width: 396px;
-    max-height: 240px;
+    max-width: 420px;
+    max-height: 260px;
 }
 
 .project_view {
