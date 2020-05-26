@@ -159,7 +159,7 @@ div#Description {
     margin-top: 30vh;
     height: auto;
     position: fixed;
-    margin-left: 60%;
+    margin-left: 50%;
 }
 .project_info_about {
     max-width: 50%;
@@ -205,24 +205,25 @@ footer#about {
 
 /* Desktop Notebook, Macbook 15 Inch, Media Queries */
 
-@media (min-width: 1200px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1500px) {
   
 video#video_resize {
-    width: 460px;
+    width: 430px;
     height: 290px;
 }
 
 .project_view {
     
-    width: 460px;
+    width: 430px;
     height: 290px;
 }
  .project_info {
      max-width: 50%;
-     margin-left: 105vh;
+     margin-left: 100vh;
  }   
 .project_info_about {
-    max-width: 80%;
+    max-width: 60%;
+    margin-left: 52%;
     
 }
 a {
