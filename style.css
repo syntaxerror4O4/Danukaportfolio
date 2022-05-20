@@ -308,6 +308,38 @@
     @media only screen and (max-device-width: 480px) {
 
 
+        header {
+            padding-top: 4vh;
+            margin-bottom: 20px;
+            margin-left: 0px;
+            margin-right: 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            overflow: hidden;
+    
+            /*  --
+            font-family: 'Red Hat Display';
+            font-size: 22px;
+            font-style: normal;
+            font-weight: normal;
+             -- */
+    
+    
+        }
+    
+        /* -- a = header KOPFZEILE Layout  -- */
+        a {
+            color: rgb(43, 38, 28);
+            cursor: pointer;
+            font-family: 'Red Hat Display';
+            font-size: 22px;
+            font-style: normal;
+            font-weight: normal;
+    
+        }
+        
         div.mult_view {
 
             margin-bottom: 0px;
