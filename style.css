@@ -21,10 +21,10 @@
         flex-wrap: wrap;
 
 
-        /* margin-bottom: 0px;
+        margin-bottom: 0px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 0px; */
+        margin-top: 0px;
 
         /* width: calc(100%-40px) */
     }
@@ -38,11 +38,12 @@
 
 
 
-        /* object-fit: cover;
+        object-fit: cover;
         width: 460px;
-        height: 270px; */
+        height: 270px;
+     
         /* --- hover transition time --- */
-        /* margin-bottom: 0px;
+        /* /* margin-bottom: 0px;
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 0px; */
@@ -318,17 +319,17 @@
             justify-content: center;
             max-width: 100%;
             overflow: hidden;
-    
+
             /*  --
             font-family: 'Red Hat Display';
             font-size: 22px;
             font-style: normal;
             font-weight: normal;
              -- */
-    
-    
+
+
         }
-    
+
         /* -- a = header KOPFZEILE Layout  -- */
         a {
             color: rgb(43, 38, 28);
@@ -337,9 +338,9 @@
             font-size: 22px;
             font-style: normal;
             font-weight: normal;
-    
+
         }
-        
+
         div.mult_view {
 
             margin-bottom: 0px;
