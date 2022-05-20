@@ -14,36 +14,43 @@
     /* -- div.mult_view  = übersicht LANDINGPAGE video sektion -- */
     div.mult_view {
 
-        margin-bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 0px;
         display: flex;
         align-items: flex-start;
         justify-content: space-evenly;
         flex-direction: row;
         flex-wrap: wrap;
+
+
+        /* margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px; */
+
         /* width: calc(100%-40px) */
     }
 
     /* -- .project_view = PROJEKTPÜBERSICHT, videos -- */
     .project_view {
+        overflow: hidden;
+
         object-fit: cover;
-        width: 460px;
-        height: 270px;
         transition: transform .3s;
+
+
+
+        /* object-fit: cover;
+        width: 460px;
+        height: 270px; */
         /* --- hover transition time --- */
-        margin-bottom: 0px;
+        /* margin-bottom: 0px;
         margin-left: 0px;
         margin-right: 0px;
-        margin-top: 0px;
-
-
+        margin-top: 0px; */
     }
 
     /* -- project_view:hover = PROJEKTPÜBERSICHT -- */
     .project_view:hover {
-        transform: translate3d(50px, 20px, 200px);
+        /* transform: translate3d(50px, 20px, 200px); */
         transform: scale(1.1);
     }
 
@@ -151,21 +158,6 @@
 
     }
 
-    /* -- p = DANUKA ANA TOMAS -- */
-
-    .about_view {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-
-    div#Description {
-        height: 540px;
-        max-width: 360px;
-        margin-left: 20px;
-    }
-
     .subpages {
 
         max-width: 100%;
@@ -191,18 +183,34 @@
         margin-left: 50%;
     }
 
-    div#about {
+    /* div#momente_margin - images left mm */
+    div#momente_margin {
+        margin-left: 20vh;
+    }
+
+    /* div#Description {
+        height: 540px;
+        max-width: 360px;
+        margin-left: 20px;
+    } */
+
+    /* -- p = DANUKA ANA TOMAS -- 
+
+    .about_view {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+*/
+
+    /* div#about {
         max-width: 50%;
         margin-top: 20vh;
         height: auto;
         position: fixed;
         margin-left: 50%;
-    }
+    } */
 
-
-    div#momente_margin {
-        margin-left: 20vh;
-    }
 
     /* header#center {
         padding-top: 4vh;
@@ -225,7 +233,6 @@
         margin-left: 50%;
 
     } */
-
 
     /* footer {
         display: flex;
@@ -254,9 +261,16 @@
 
     @media (min-width: 1200px) and (max-width: 1500px) {
 
-        video#video_resize {
+        /* video#video_resize {
             width: 430px;
             height: 290px;
+        } */
+
+        image#image_resize {
+            width: 420px;
+            height: 270px;
+            object-fit: contain;
+
         }
 
         /* -- project_view = ansicht videos -- */
@@ -271,11 +285,6 @@
             margin-left: 100vh;
         }
 
-        .project_info_about {
-            max-width: 60%;
-            margin-left: 52%;
-
-        }
 
         a {
             color: rgb(43, 38, 28);
@@ -288,14 +297,14 @@
 
         }
 
-        /*
-        h2 {
-            font-size: 22px;
-        }
-*/
+        /* .project_info_about {
+            max-width: 60%;
+            margin-left: 52%;
+
+        } */
     }
 
-    /*Mobile Version */
+    /* Mobile Version */
     @media only screen and (max-device-width: 480px) {
 
 
@@ -323,5 +332,38 @@
             height: 396px;
         }
 
+        /* .project_info {
+            max-width: 50%;
+            margin-left: 100vh;
+        } */
 
+        .subpages {
+
+            max-width: 100%;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
+        .content_left {
+            width: 50%;
+            object-fit: cover;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+
+        }
+
+        .project_info {
+            max-width: 50%;
+            margin-top: 15vh;
+            height: auto;
+            position: fixed;
+            margin-left: 50%;
+        }
+
+        /* div#momente_margin - images left mm */
+        div#momente_margin {
+            margin-left: 20vh;
+        }
     }
