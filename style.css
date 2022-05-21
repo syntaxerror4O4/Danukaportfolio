@@ -254,9 +254,14 @@
 
     @media (min-width: 1200px) and (max-width: 1500px) {
 
-        video#video_resize {
+        /* video#video_resize {
             width: 430px;
             height: 290px;
+        } */
+
+        image#image_resize {
+            width: 420px;
+            height: 270px;
         }
 
         /* -- project_view = ansicht videos -- */
